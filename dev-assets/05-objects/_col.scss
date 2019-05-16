@@ -44,5 +44,12 @@
             max-width: 50%; // special for compatible IE !! 
         }
     }
+
+    &--lg75 {
+        @include large-up {
+            flex: 0 0 75%;
+            max-width: 75%; // special for compatible IE !! 
+        }
+    }
 }
 
