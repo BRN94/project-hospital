@@ -168,6 +168,8 @@ a {
     text-transform: uppercase; }
   .c-heading--white {
     color: #FFFFFF; }
+  .c-heading--center {
+    text-align: center; }
 
 .c-nav__item {
   color: #FFFFFF;
@@ -198,7 +200,8 @@ a {
     align-self: center; }
   .c-icon-box__text {
     font-size: 0.75rem;
-    margin-top: 15px; }
+    margin-top: 15px;
+    text-align: center; }
 
 .c-label {
   display: block;
@@ -217,6 +220,74 @@ a {
         civ class c-icon-box__image <- image jest elementem bloku
             a class c-btn c-btn--dark-blue <- modyfikator 
 */
+.t-our-advantages {
+  padding-top: 60px; }
+  .t-our-advantages__item {
+    margin-bottom: 40px; }
+    @media (min-width: 1200px) {
+      .t-our-advantages__item {
+        margin-bottom: 110px; } }
+
+.t-our-company {
+  padding-bottom: 60px;
+  padding-top: 90px; }
+  .t-our-company__left {
+    margin-bottom: 40px; }
+    @media (min-width: 800px) {
+      .t-our-company__left {
+        margin-bottom: 0; } }
+  .t-our-company__right {
+    text-align: center; }
+    @media (min-width: 800px) {
+      .t-our-company__right {
+        padding-right: 30px;
+        text-align: right; } }
+  .t-our-company__buttons {
+    display: flex;
+    flex-wrap: wrap; }
+  .t-our-company__btn {
+    margin-right: 30px;
+    margin-bottom: 30px; }
+
+.t-post-list {
+  background-color: #F9FbFE;
+  padding-top: 40px;
+  position: relative; }
+  @media (min-width: 1200px) {
+    .t-post-list {
+      height: 380px; } }
+  .t-post-list__content {
+    padding-bottom: 40px; }
+    @media (min-width: 1200px) {
+      .t-post-list__content {
+        background-color: #F9FbFE;
+        clip-path: ellipse(68% 450px at 50% 0);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+        z-index: 1000; } }
+  .t-post-list__item {
+    margin-bottom: 40px; }
+    @media (min-width: 1200px) {
+      .t-post-list__item {
+        margin-bottom: 20px; } }
+  .t-post-list__image {
+    margin-bottom: 25px;
+    max-width: 349px;
+    position: relative; }
+  .t-post-list__badge {
+    background: linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
+    border-radius: 5px 0 0 5px;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    position: absolute;
+    top: 70%;
+    text-transform: uppercase;
+    right: 0; }
+
 .t-site-header {
   background: url("../images/header-tlo.jpg") 0 0 no-repeat; }
   @media (min-width: 1200px) {
